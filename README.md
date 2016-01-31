@@ -10,7 +10,7 @@ The scripts should be called in the following order:
    + `./bin/inflateTheDataTar.sh`
    + `./bin/buildTheDockerImage.sh`
    + `./bin/toMatfile.sh`
+   + `./bin/toJSON.sh`
 
-Note: the last script should take approximately 10 minutes to complete.
+Note: the last two scripts should each take >10 minutes to complete.
 
-To JSON conversion is coming soon.
