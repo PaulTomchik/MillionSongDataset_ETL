@@ -8,4 +8,5 @@ cd /data && for f in $(find hdf5/ -name '*.mat'); do
     mv $f $m
 done
 
+# http://stackoverflow.com/a/29584184
 chown -R `stat -c "%u:%g" /data` /data
