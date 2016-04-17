@@ -1,0 +1,21 @@
+
+To start the Postgres database:
+    `./start_postgres.sh` 
+
+
+To shutdown the Postgres database:
+    `./stop_postgres.sh`
+
+
+The database password is '518'.
+
+Note: The port for the database will be 65432.
+        You should be able to call it from code and apps at localhost:65432.
+
+If you want to use psql in the Docker container, run 
+    `.attachWithBash.sh`
+
+    At the prompt inside the container:
+
+        `su postgres`
+        `psql`
