@@ -16,7 +16,7 @@ The scripts should be called in the following order:
 Note: the last two scripts should each take >10 minutes to complete.
 
 
-#========================================================================
+#==========================================
 Houston, we have a problem....
 
 It (hdf5 -> .mat) converter throws if the input file is not good.
