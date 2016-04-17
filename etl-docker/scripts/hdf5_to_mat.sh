@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-python /PythonSrc/hdf5_to_matfile.py /data/hdf5
+SUB_DIR=$1
 
-cd /data && for f in $(find hdf5/ -name '*.mat'); do
+python /PythonSrc/hdf5_to_matfile.py /data/hdf5/${SUB_DIR}
+
+cd /data && for f in $(find "hdf5/${SUB_DIR}" -name '*.mat'); do
     m=$(echo $f | sed 's/hdf5/mat/g')
     mkdir -p $(dirname $m)
     mv $f $m
