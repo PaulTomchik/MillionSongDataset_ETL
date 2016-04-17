@@ -36,4 +36,4 @@ Then,
 			The key will be identifying the borked files.
 				Not sure how to do that yet.
 
-	HDF5 subdirectories yet to transform: [A, B, E, G, K, N, O, P, T, V, X, Y]	
+	HDF5 subdirectories yet to transform: [B, E, G, K, N, O, P, T, V, X, Y]	
