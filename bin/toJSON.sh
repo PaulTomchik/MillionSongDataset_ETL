@@ -14,4 +14,4 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 docker run -v "${DIR}/../data/:/data" \
            -v "${DIR}/../MSongsDB/PythonSrc/:/PythonSrc" \
            -v "${DIR}/../etl-docker/scripts/:/etl" \
-           msds-etl bash -c "/etl/mat_to_json.sh"
+           msds-etl-py bash -c "/etl/mat_to_json.sh"

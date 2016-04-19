@@ -15,7 +15,7 @@ PATH_TO_DIR = '../../data/projections/data_A/'
 def convert_JSON_to_CSV ():
 
     fields = [
-        'artist_hottnesss', 
+        'artist_hotttnesss', 
         'title', 
         'energy', 
         'loudness', 
@@ -24,7 +24,7 @@ def convert_JSON_to_CSV ():
         'track_id', 
         'key', 
         'year', 
-        'song_hottnesss'
+        'song_hotttnesss'
     ]
 
     inFilePath  = os.path.join(PATH_TO_DIR, 'data_A.json')

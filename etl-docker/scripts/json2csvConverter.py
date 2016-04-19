@@ -18,7 +18,7 @@ csvDir = '../../data/projections/'
 csvFileName = 'data_A.csv'
 
 fields = [
-    'artist_hotness', 
+    'artist_hotttnesss', 
     'title', 
     'energy', 
     'loudness', 
@@ -27,7 +27,7 @@ fields = [
     'track_id', 
     'key', 
     'year', 
-    'song_hotness'
+    'song_hotttnesss'
 ]
 
 

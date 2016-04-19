@@ -11,6 +11,7 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 ################################################################################
 
-cd "${DIR}/../etl-docker/" && docker build --tag="msds-etl-py" --pull -f pyDockerfile .
-
+docker run -v "${DIR}/../data/:/data" \
+           -v "${DIR}/../etl-docker/scripts/:/etl" \
+           node:5.10 bash -c "node /etl/jsonDirCombiner.js"
 
