@@ -16,6 +16,7 @@ module.exports = (dataDir, callback) => {
         'loudness', 
         'tempo', 
         'artist_name', 
+        'song_id',
         'track_id', 
         'key', 
         'year', 
